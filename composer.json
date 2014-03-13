@@ -1,0 +1,18 @@
+{
+    "name": "bitweb/zend-extension",
+    "description": "BitWeb extension for Zend Framework 2.",
+    "license": "proprietary",
+    "homepage": "http://bitweb.ee/",
+    "require": {
+        "php": ">=5.3.3",
+        "bitweb/stdlib": "1.*",
+        "zendframework/zend-i18n": "2.2.*",
+        "zendframework/zend-mime": "2.2.*",
+        "zendframework/zend-mail": "2.2.*",
+        "zendframework/zend-view": "2.2.*",
+        "zendframework/zend-validator": "2.2.*",
+        "zendframework/zend-navigation": "2.2.*",
+        "zendframework/zend-uri": "2.2.*",
+        "zendframework/zend-form": "2.2.*"
+    }
+}
