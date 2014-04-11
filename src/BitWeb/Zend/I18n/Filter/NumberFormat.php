@@ -109,5 +109,3 @@ class NumberFormat extends ZendNumberFormat
         return $this->thousandsSeparator;
     }
 }
-
-?>

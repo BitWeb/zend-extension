@@ -33,5 +33,4 @@ class Service extends AbstractHelper implements ServiceLocatorAwareInterface
 
         return $this->serviceLocator->get($name);
     }
-
 }

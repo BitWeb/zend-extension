@@ -72,5 +72,4 @@ class MailService
 
         $this->setBypassConfiguration();
     }
-
 }

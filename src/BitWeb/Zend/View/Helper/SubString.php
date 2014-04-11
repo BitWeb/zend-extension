@@ -1,16 +1,15 @@
 <?php
 
-namespace BitWebExtension\View\Helper;
+namespace BitWeb\Zend\View\Helper;
 
-use BitWebExtension\Util\StringUtil;
-
+use BitWeb\Stdlib\Util\StringUtil;
 use Zend\Form\View\Helper\AbstractHelper;
 
-class SubString extends AbstractHelper {
+class SubString extends AbstractHelper
+{
 
-	public function __invoke($str, $length, $minword = 3) {
-		
-		return StringUtil::subString($str, $length, $minword);
-	}
-	
+    public function __invoke($str, $length, $minWord = 3)
+    {
+        return StringUtil::subString($str, $length, $minWord);
+    }
 }

@@ -13,5 +13,4 @@ class StringLinesLimiter extends AbstractHelper
 
         return StringUtil::stringLinesLimiter($string, $limit, $removeEmptyLines);
     }
-
 }
